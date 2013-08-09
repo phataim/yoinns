@@ -1,0 +1,24 @@
+
+<html>
+
+<head>
+<script type="text/javascript">
+xml=new ActiveXObject("Microsoft.XMLHTTP");
+		xml.open("GET","http://iframe.ip138.com/ic.asp",false);   
+		xml.send();   
+		kk=xml.ResponseText;   
+		i=kk.indexOf("[");   
+		ie=kk.indexOf("]");   
+		ip=kk.substring(i+1,ie);
+		alert(ip);
+</script >
+<title>ªÒ»°ip≤‚ ‘</title>
+</head>
+
+<body>
+<script type="text/javascript">
+document.write(ip);
+</script >
+</body>
+
+</html>

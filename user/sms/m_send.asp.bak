@@ -1,0 +1,46 @@
+<!--#include file="m_common.asp"-->
+<!--#include file="m_codepublic.asp"-->
+<%
+' 后面加个来路检测
+call no_long() '防止重量发送
+
+t_no=ConvertHTML(request("t_no")) '手机号码
+
+if len(t_no)<>11 and  IsNum_pro(t_no)=false then '如果手机号码有错时
+	response.Write "1" '返回失败值
+	response.End
+end if
+
+r_no=Rnd_no(4) '需要4位随机码
+
+'mbile=trim(request.Form("mobile"))
+'ext=trim(request.Form("ext"))
+'stime=trim(request.Form("stime"))
+'content=trim(request.Form("content"))
+'rrid=trim(request.Form("rrid"))
+ext=""
+stime=""
+rrid=""
+
+text_r_no="欢迎使用[有旅馆]短信服务, 您的验证码是 "&r_no&" ,请在页面正确填写完成验证, 谢谢!【有旅馆】"
+
+'response.Write text_r_no
+'response.End()
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''				
+'at=mt(t_no,text_r_no,ext,stime,rrid) '给远程地址发短信
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+call mdb_name(user_mdb) '打开SMS数据库
+
+sql="select * from sms"
+rs.open sql,conn,1,3
+rs.addnew
+	rs("r_no")=r_no '验证码
+	rs("t_no")=t_no '手机号
+	rs("mt")=at '短信服务器返回值
+rs.update
+rs.close	
+set rs=nothing
+conn.close
+set conn=nothing 
+response.Write "0" '返回成功值
+%>

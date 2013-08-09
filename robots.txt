@@ -1,0 +1,12 @@
+User-agent: *
+Sitemap£ºhttp://www.yoinns.com/sitemap.html
+Sitemap£ºhttp://www.yoinns.com/sitemap.xml
+Sitemap£ºhttp://www.yoinns.com/sitemap.txt
+Disallow:/user/
+Disallow:/buy*
+Disaloow:/hmap*
+Disallow:/hotelsend*
+Disallow:/pstep*
+Disallow:/preview*
+Disallow:/common/
+Disallow:/data/

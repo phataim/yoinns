@@ -1,0 +1,1 @@
+﻿var citys = [{ name: "beiting", to: "北亭", en: "beiting" },{ name: "北亭", to: "北亭", en: "beiting" },{ name: "nanting", to: "南亭", en: "nanting" },{ name: "南亭", to: "南亭", en: "nanting" },{ name: "beigang", to: "贝岗", en: "beigang" },{ name: "贝岗", to: "贝岗", en: "beigang" },{ name: "suishi", to: "穗石", en: "suishi" },{ name: "穗石", to: "穗石", en: "suishi" }];

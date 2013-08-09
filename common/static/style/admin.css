@@ -1,0 +1,54 @@
+@charset "gb2312";
+html, body, ul, ol, p, h1, h2, h3, h4, h5, h6, form, fieldset,table,td, img {margin:0; padding:0; border:0;}
+p,div,table,td,select,input,textarea {font-size:12px;/*color: #006699;*/color: #3C3C3C;}
+html,body{height:100%;font-family:"Î¢ÈíÑÅºÚ", arial;background:url(img/install_backimg.jpg) top right no-repeat;min-height:600px;min-width:1000px;overflow:hidden;}
+a:link{color:#000;text-decoration: none;}
+a:visited{color:#000;text-decoration: none;}
+a:hover{color:#2E6CD2;text-decoration: underline}
+a:active{color: #2E6CD2; text-decoration: underline}
+form{height:100%;}
+
+/*ie6 only*/
+
+.leftform{float:left;width:42%;height:100%;background:url(img/logo.gif) 55% 38% no-repeat;}
+.rightform{float:left;width:58%;_width:57%;background:url(img/install_lines.jpg) left 46% no-repeat;height:100%;}
+.alterform li{line-height:20px;list-style:none;}
+.dataForm li{line-height:20px;list-style:none;padding-left:20px;}
+
+.installtitle,.dataTitle,.dataTitle2{color:#666;font-size:18px;font-weight:bold; height:40px; line-height:40px;}
+.dataTitle{background:url(../images/step_1.gif) no-repeat;padding-left:20px;}
+.dataTitle2{background:url(../images/xieyi.gif) no-repeat;padding-left:20px;padding-bottom:10px;}
+.conLeftForm{padding-top:75%;width:200px;padding-left:24.5%;}
+
+.conRightForm{padding-top:28%;_padding-top:12%;padding-left:58px;}
+.dataForm span{display:-moz-inline-box !important;display:inline-block;width:78px;}
+.inputstyle,.inputstyle_2{padding-bottom:5px;}
+.inputstyle_2{vertical-align:top;}
+.step_1{padding-top:10px;}
+.zhushi{margin-left:112px;width:210px;margin-bottom:12px;color:#797979;}
+.input_bg2 {border: 1px solid #CCCCCC;height: 22px;line-height: 22px;text-indent: 6px;width: 160px;}
+.input_bg3 {border: 1px solid #CCCCCC;height: 22px;line-height: 22px;text-indent: 6px;width: 72px;}
+
+.bottomclass{position:absolute;width:100%;left:0;bottom:0;height:35px;background:url(img/bottomBg.gif) repeat-x;min-width:1000px;line-height:35px; text-align:center; font-family:"Î¢ÈíÑÅºÚ"}
+.bottomclass p{color:#fff;padding-left:20px;line-height:35px;}
+.bottomclass p a{color:#fff;}
+.bottomclass p a font{color:Yellow;}
+
+
+.inp_L1,.inp_L2{background:url(../images/bg_x.gif) no-repeat}
+.inp_L1{ width:67px; height:23px; background-position:-4px -4px; border:0; color:#464646; line-height:23px}
+.inp_L2{ width:67px; height:23px; background-position:-4px -30px; border:0; color:#464646; line-height:23px}
+.MessageSuccess {padding:2px;font-family: Tahoma, Arial, Helvetica;font-size: 100%;color: #334433;border: solid;border-width: 1px;border-color: #00be00;background-color: #E9FFEB;}
+.MessageError {margin:0px;padding: 2px;font-family: Tahoma, Arial, Helvetica;font-size: 100%;color: #443333;border: solid;border-width: 1px;
+border-color: #f60;background-color: #FFF2E9;}
+
+/* [ÐÞ¸Ä³É¹¦&Ê§°Ü] */
+.sysmsgw{clear:both;padding:8px 0 10px 37px;color:#000;font-size:12px;margin-bottom: 10px;}
+.sysmsg{position:relative;width:980px;margin:auto;padding-left:30px;}
+.sysmsg .close{position:absolute;top:0;right:20px;padding-right:16px;background:url(img/close.gif) 100% 50% no-repeat;font-size:12px;cursor:pointer;}
+#sysmsg-error{border-top:1px solid #d01e5e;border-bottom:1px solid #d01e5e;background:#ffdcd7;color:#d01e5e;}
+#sysmsg-success{border-top:1px solid #690;border-bottom:1px solid #690;background:#EDFEDA;color:#690;}
+#sysmsg-error .sysmsg{background:url(img/error.gif) no-repeat 0 0;}
+#sysmsg-success .sysmsg{background:url(img/success.gif) no-repeat 0 0;}
+
+.gobtn {background: url("img/botton_go.gif") repeat scroll 0 0 transparent;border: 0 none;cursor: pointer;height: 28px;width: 75px;}

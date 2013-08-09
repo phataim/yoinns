@@ -1,0 +1,1 @@
+<div id="footer">Copyright&copy;2012  All Rights Reserved <a href="http://yoinns.com" target="_blank">有旅馆</a> 广州梦谷网络科技有限公司 版权所有</div>

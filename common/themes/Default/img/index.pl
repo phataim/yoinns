@@ -1,0 +1,10 @@
+print "Content-type:text/html\n\n"; 
+print "<html>\n";
+print "    <head>\n";
+print "        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=gb2312\" />\n";
+print "        <title>Perl Test</title>\n";
+print "    </head>\n";
+print "<body>\n";
+print "		<h1><center>Perl程序已经运行</center></h1>\n";
+print "</body>\n";
+print "</html>\n";

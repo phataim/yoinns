@@ -1,0 +1,110 @@
+@charset "gb2312";
+/*--------------------------------------------------------------------
+ *  Dream3.cn zu ADMIN CSS style. By HiWei Network Ltd.
+ *--------------------------------------------------------------------*/
+html, body, ul, ol, p, h1, h2, h3, h4, h5, h6, form, fieldset, table, td, img {margin:0;padding:0;border:0;}
+p, div, table, td, select, input, textarea {font-size:12px;/*color: #006699;*/color: #333;}
+li { list-style:none; }
+a {font-size: 12px;color: #1D7FB4;font-style: normal;font-family: verdana, arial, helvetica, sans-serif;text-decoration: none}
+a:link { color: #1D7FB4 }
+a:visited { color: #1D7FB4 }
+a:hover {color: #1D7FB4;text-decoration: underline}
+a:active {color: #1D7FB4;text-decoration: underline}
+table {border-collapse: collapse;border-spacing: 0;}
+.fl{ float:left;}
+.fr{ float:right;}
+/* 头部 */
+#top_logo {height: 49px;width: 100%;top: 0px;background-image: url(img/topLogo_bg.gif);overflow:hidden;}
+#top_logo #logo {background-image: url(img/hishoplogo_new.gif);background-repeat: no-repeat;height: 32px;width:239px;position: absolute;top: 8px;left: 20px;padding-left:120px;padding-top:8px;}
+#top_logo #logoCenterBG {position: absolute;/*background-image: url(../images/naviBg_new.gif);*/background-repeat: no-repeat;height: 49px;width:280px;top: 0px;left: 260px;line-height:49px;}
+#top_logo #line {background-image: url(../images/topLogo_bg.gif);height: 60px;position: absolute;top: 0px;right: 0px;}
+#top_logo #logoRightEditor {height: 48px;	text-align:right;/*position: absolute;top: 23px;right: 10px;*/color:#666;line-height:48px;padding-right:20px;}
+
+/* 页面导航 */
+.nav {clear:both;width:100%;height:42px;overflow:hidden;background: url("img/topMenu_bg.gif") repeat-x scroll transparent;font-family:"微软雅黑", arial;}
+.navTxt {width:960px;margin:0 auto;}
+.navTxt:after {content:".";display:block;clear:both;height:0;line-height:0;visibility:hidden;}
+.navTxt li {float:left;}		
+.navTxt li a,.navTxt li p {float:left;display:block;height:40px;line-height:44px;outline:none;overflow:hidden;}
+.navTxt li a:hover { color:#fff;}
+.navTxt li span {display:inline-block;vertical-align:middle;height:40px;padding:0 18px;text-align:center;}
+.navTxt li.navLi1 a{color:#D5F0FF;text-decoration:none;}
+.navTxt li.navLi1 a:hover { color:#FFF;cursor:pointer}
+.navTxt li.navLi2 span{}
+.navLi-Lbg,.navLi-Rbg {display:inline-block;vertical-align:middle;width:10px;height:40px;}
+.navTxt li.default span {height:29px; line-height:30px;background-color:#FFF;border-top:1px solid #D2D3F1;font-weight:bold; color:#666; }
+.navTxt li.default a:hover {color:#666;}
+.default .navLi-Lbg,.default .navLi-Rbg {background:url(img/navDefault.jpg) -9999px -9999px no-repeat;}
+.default .navLi-Lbg {background-position:0 0; margin-top:10px;}
+.default .navLi-Rbg {background-position:-10px 0;margin-top:10px;}
+.fgLine {height:27px;width:2px;background:url(img/spirtlines.gif) 0 10px no-repeat;}
+
+/* 二级分类 */
+.nav_sub_menu {height:40px;width: 100%;background-image: url(img/index_blue_top.jpg);cursor:default;overflow:hidden;}
+.tabcontent {height: 32px;margin: 0 auto;width: 960px;}
+.tabcontent li {float: left;line-height: 32px;margin: 0;padding: 0 16px;font-family:"微软雅黑",arial;}
+.tabcontent li a{color: #666;text-decoration: none;}
+.tabcontent li a:hover {color:#1D7FB4;}
+.tabcontent li a.current {color: #1D7FB4;}
+
+/* 说明区 */
+.PageTitleArea{margin:0px;margin-bottom:4px;padding:8px;border:#D5DCE6 1px solid;background:#F8F8F8;font-size: 120%; font-style: normal;font-size:12px; font-weight:normal;color:#404040;line-height:17px; width:942px; margin: 0 auto;}
+.PageTitle{ height:24px; line-height:24px;overflow:hidden;}
+.PageTitle .fl{font-size:15px;color:#1D7FB4; font-weight:bold;}
+.PageTitle .fr{ font-size:12px; color:#333;}
+.say{ line-height:22px;color:#999;overflow:hidden;}
+
+/* 内容 */
+#box {margin: 5px auto;width: 942px;border:#D5DCE6 1px solid; padding:8px;}
+#box .sect{font-family:"微软雅黑",arial; overflow:hidden;}
+#box .wholetip h3 {clear: both;font-size: 14px;padding: 8px 10px;}
+#box .field {clear: left;float: left;margin: 5px auto 10px;padding: 0 10px 2px; width:900px;}
+#box .field label {color: #666;float: left;font-size: 14px;height: 30px;line-height: 30px;padding-right: 20px;text-align: right;width: 120px;}
+#box .field .f-input {float: left;margin: 3px 0 0;width: 480px;}
+#box .f-input, input.date, input.number {border-color: #e1e1e1;border-style: solid;border-width: 1px;font-size: 12px;padding: 3px 4px;}
+#box .field input.number {float: left;margin: 3px 15px 0 0;width: 88px;}
+#box .hint {clear: left;color: #989898;float: left;font-size: 12px;margin-left: 140px;width: 560px;}
+#box .inputtip {color: #666666;float: left;font-size: 12px;margin-left: 10px;margin-top: 5px;}
+#box .act {clear: left;margin-left: 140px;padding: 0 10px;}
+.h-input, input.date, input.number{font-size:12px;padding:2px 3px;border-color:#e1e1e1;border-style:solid;border-width:1px;}
+
+#box .sect p{ padding-left:40px;line-height:24px; color:#666;}
+
+/* 按钮 */
+input.formbutton{padding:4px 1em;*padding:5px 1.5em 0;border:2px solid;border-color:#59B9ED #1C76A6 #1C76A6 #59B9ED;background:#3097CE;color:#fff;letter-spacing:.1em;cursor:pointer;*width:auto;_width:0;*overflow:visible;}
+input.disabled{border:1px solid #ccc;background:#eee;color:#999;cursor:default;}
+button.formbutton{height:23px;padding:0 1.5em;border:1px solid;border-color:#59B9ED #1C76A6 #1C76A6 #59B9ED;background:#3097CE;color:#fff;letter-spacing:.3em;cursor:pointer;line-height:23px;}
+dd.formbutton:focus{border-color:#000;}
+
+/* 表格 */
+.coupons-table{margin:0px; width:100%;}
+.coupons-table td,.coupons-table th{padding:10px;border:1px solid #fff;text-align:left}
+.coupons-table td{background:#fff;}
+.coupons-table .last{white-space:nowrap;}
+.coupons-table .last form{text-align:center;}
+.coupons-table .last form p{margin-top:4px;}
+.coupons-table .last .f-input{width:90px;float:none;margin-bottom:4px;}
+.coupons-table .alt td{background:#F2F9FE;}
+.coupons-table a.deal-title{color:#626061;}
+.coupons-table a.deal-title:hover{color:#626061;}
+.coupons-table .op{font-size:12px; color:gray;}
+.coupons-table td.author {font-size:12px; color:gray;}
+
+/* [修改成功&失败] */
+.sysmsgw{clear:both;padding:8px 0 10px 37px;color:#000;font-size:12px;margin-bottom: 10px;}
+.sysmsg{position:relative;width:980px;margin:auto;padding-left:30px;}
+.sysmsg .close{position:absolute;top:0;right:20px;padding-right:16px;background:url(img/close.gif) 100% 50% no-repeat;font-size:12px;cursor:pointer;}
+#sysmsg-error{border-top:1px solid #d01e5e;border-bottom:1px solid #d01e5e;background:#ffdcd7;color:#d01e5e;}
+#sysmsg-success{border-top:1px solid #690;border-bottom:1px solid #690;background:#EDFEDA;color:#690;}
+#sysmsg-error .sysmsg{background:url(img/error.gif) no-repeat 0 0;}
+#sysmsg-success .sysmsg{background:url(img/success.gif) no-repeat 0 0;}
+
+/* [风格] */
+.ImgList {overflow: hidden;}
+.ImgList ul {list-style-type: none;}
+.ImgList li {float: left;padding:0px 31px 0px 0px;text-align: center;}
+.ImgList img {border: 1px solid #eee; width:180px; height:230px; padding:2px;}
+.ImgList a, .ImgList a:visited {line-height: 25px;text-align: center;}
+
+/* 底部 */
+#footer{ width:960px; margin:0 auto; border-top:1px solid #D5DCE6; height:40px; line-height:40px; text-align:center; color:#999;font-family:"微软雅黑",arial; padding-bottom:15px;}

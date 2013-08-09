@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.yoinns.com/</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/index.asp</loc>
+  <priority>1.0</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/list.asp?city=&amp;district=120111</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/list.asp?city=&amp;district=140111</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/list.asp?city=&amp;district=130111</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/list.asp?city=&amp;district=150111</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/show.asp?hid=50</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/show.asp?hid=49</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/show.asp?hid=48</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/show.asp?hid=47</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+<loc>http://www.yoinns.com/detail.asp?pid=56</loc>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.yoinns.com/detail.asp?pid=57</loc>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.yoinns.com/detail.asp?pid=61</loc>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.yoinns.com/detail.asp?pid=54</loc>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.yoinns.com/detail.asp?pid=55</loc>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.yoinns.com/detail.asp?pid=53</loc>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>http://www.yoinns.com/detail.asp?pid=58</loc>
+<priority>0.6</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=question</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=pay</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=friendlink</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=cooperation</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=roomspec</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=aboutus</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=privacy</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/help/index.asp?c=terms</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/user/account/forgetpwd.asp</loc>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/user/account/normalsignup.asp</loc>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/user/account/normallogin.asp</loc>
+  <priority>0.2</priority>
+</url>
+<url>
+  <loc>http://www.yoinns.com/user/account/companysignup.asp</loc>
+  <priority>0.2</priority>
+</url>
+
+</urlset>
